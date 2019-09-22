@@ -6,7 +6,11 @@ body#popup {
   height: 387 px;
   max-height: 500px;
 }
-
+html {
+  width: 338 px;
+  height: 387 px;
+  max-height: 500px;
+}
 body#options {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
@@ -44,11 +48,10 @@ textarea {
   width: 325px;
 }
 
-em {
+pink {
   display: block;
-  width: 325px;
-  text-align: right;
-  font-size: 90%;
+  text-align: left;
+  color: #ff7171;
 }
 
 button {
