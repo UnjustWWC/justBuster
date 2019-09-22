@@ -10,7 +10,7 @@ const justSwap = (text) => {
        var answer = prompt('would you like to try to rephrase that?')
        console.log(answer)
         if(answer === 'yes'){
-            //replacing softened language for empowering language
+            //replacing undermining language for empowering language
             return text.replace('just', 'absolutely');
 
         }else if(answer === 'no') {
