@@ -2,13 +2,14 @@ body#popup {
   font-size: 13px;
   background-color: F4FAFC;
   font-family: "Roboto", sans-serif;
-  width: 338 px;
-  height: 387 px;
   max-height: 500px;
 }
-
+html,
+body {
+  max-height: 500px;
+}
 body#options {
-  font-size: 15px;
+  font-size: 12px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -17,7 +18,7 @@ h1 {
   margin-bottom: 3px;
   border: 0;
   padding: 0;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 h2 {
@@ -25,7 +26,7 @@ h2 {
   margin-bottom: 5px;
   border: 0;
   padding: 0;
-  font-size: 18.2pt;
+  font-size: 15pt;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
 }
@@ -36,7 +37,7 @@ p {
   border: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  font-size: 16pt;
+  font-size: 12pt;
   font-weight: 400;
 }
 
@@ -44,13 +45,18 @@ textarea {
   width: 325px;
 }
 
-em {
-  display: block;
-  width: 325px;
-  text-align: right;
-  font-size: 90%;
+.JustRemoved {
+  width: 500px;
 }
 
+pink {
+  display: block;
+  text-align: left;
+  color: #e00e15;
+}
+.buttons {
+  display: flex;
+}
 button {
   font-size: 115%;
   font-family: "Roboto", sans-serif;
@@ -63,8 +69,8 @@ button {
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 30px;
+  height: 15px;
 }
 
 /* Hide default HTML checkbox */
@@ -90,10 +96,10 @@ button {
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
   background-color: white;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -108,14 +114,14 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
 }
 
 /* Rounded sliders */
 .slider.round {
-  border-radius: 34px;
+  border-radius: 17px;
 }
 
 .slider.round:before {
