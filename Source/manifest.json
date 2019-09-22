@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "UJust Extension",
-  "short_name": "Unjust",
+  "name": "Just Buster",
+  "short_name": "Just Buster",
   "description": "Discourages the use of certain words that undermine women",
   "version": "1.0",
   "icons": {
