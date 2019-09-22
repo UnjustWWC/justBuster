@@ -10,18 +10,16 @@ const justSwap = (text) => {
        var answer = prompt('would you like to try to rephrase that?')
        console.log(answer)
         if(answer === 'yes'){
-            return text.replace('just', 'awesome');
+            //replacing undermining language for empowering language
+            return text.replace('just', 'absolutely');
 
         }else if(answer === 'no') {
             alert('no problem')
+            return text;
         }
 
    }else {
-       happyCounter++;
-       if(happyCounter === 5){
-           console.log(`you're on a streak`);
-        
-       }
+
        return text;
    }
   
