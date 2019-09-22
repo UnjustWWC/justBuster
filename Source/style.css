@@ -2,7 +2,8 @@ body#popup {
   font-size: 13px;
   background-color: F4FAFC;
   font-family: "Roboto", sans-serif;
-  max-height: 500px;
+  height: 340px;
+  width: 300px;
 }
 html,
 body {
@@ -47,15 +48,42 @@ textarea {
 
 .JustRemoved {
   width: 500px;
+  display: flex;
+  flex-direction: row;
 }
 
-pink {
+.number {
   display: block;
   text-align: left;
+  font-family: "Roboto Medium", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 30px;
   color: #e00e15;
 }
+
+.exp{
+  font-family: "Roboto Medium", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 30px;
+  color: #e00e15;
+}
+
+.since{
+  position: absolute;
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #333333;
+  bottom: 60px;
+  padding-left:30px;
+}
+
 .buttons {
   display: flex;
+  justify-content: space-evenly;
 }
 button {
   font-size: 115%;
@@ -126,4 +154,49 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+#settings{
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #333333;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.forchrome{
+  position: absolute;
+  left: 195px;
+  top: 24px;
+  font-weight: bold;
+}
+
+.options{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.group{
+  display: flex;
+  flex-direction: row;
+}
+
+.option-tool1{
+  padding-top: 5px;
+  padding-left: 110px;
+}
+
+.option-tool2{
+  padding-top: 5px;
+  padding-left: 71px;
 }
